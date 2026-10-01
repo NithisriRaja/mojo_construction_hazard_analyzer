@@ -89,7 +89,7 @@ Rules:
 39. Work Planning, Permits, and Task Coordination
 - severity: "High" = could cause serious injury or death, "Medium" = could cause injury, "Low" = minor or housekeeping-level risk.
 - title: short (max ~6 words), e.g. "Unprotected leading edge".
-- description: one sentence describing what you see and where in the image.
+- description: one short sentence, at most 15 words, saying what you see and where, e.g. "Open edge on the elevated deck with no guardrail or warning line." No extra explanation of the risk.
 - Order hazards from most to least severe.
 - If the image is not a work area or shows no hazards, return an empty hazards list."""
 
@@ -106,7 +106,7 @@ Severity:
 
 Output fields:
 - title: short (max ~6 words), e.g. "Unprotected leading edge".
-- description: one sentence describing what you see and where in the image. Refer to people neutrally (for example "a worker"), never by gender, age or ethnicity.
+- description: one short sentence, at most 15 words, saying what you see and where, e.g. "Open edge on the elevated deck with no guardrail or warning line." No extra explanation of the risk. Refer to people neutrally (for example "a worker"), never by gender, age or ethnicity.
 - Order hazards from most to least severe.
 - If the image is not a work area or shows no hazards, return an empty hazards list."""
 
