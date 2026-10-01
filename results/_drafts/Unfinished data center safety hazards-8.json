@@ -1,0 +1,58 @@
+{
+  "hazards": [
+    {
+      "title": "Unguarded floor opening",
+      "description": "A large rectangular floor opening in the foreground exposing the cable vault below has no cover, guardrail or barricade, creating a fall-through hazard for workers walking the aisle.",
+      "severity": "High",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Work inside open energized switchgear",
+      "description": "A worker in the center is reaching into an open switchgear section with exposed breakers and terminals, with no visible lockout devices, barriers or arc-flash PPE.",
+      "severity": "High",
+      "category": "Lockout/Tagout and Hazardous Energy"
+    },
+    {
+      "title": "Multiple switchgear doors left open",
+      "description": "Several switchgear cabinet doors along the right-side lineup are open, exposing internal electrical components to passing workers.",
+      "severity": "Medium",
+      "category": "Electrical Safety"
+    },
+    {
+      "title": "Worker high on stepladder overreaching",
+      "description": "A worker at the upper left stands near the top of an orange stepladder, reaching overhead into the cable tray with the body extended upward.",
+      "severity": "Medium",
+      "category": "Ladders and Stairways"
+    },
+    {
+      "title": "Extension cord across walkway",
+      "description": "An orange extension cord runs loosely across the main floor aisle from the ladder area toward the right, creating a trip hazard.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "No gloves during electrical work",
+      "description": "The worker in the center is handling components inside the open switchgear without visible insulating gloves.",
+      "severity": "Medium",
+      "category": "Personal Protective Equipment (PPE)"
+    },
+    {
+      "title": "Materials stored near opening edge",
+      "description": "Metal cable tray sections and other materials are stacked on the floor at the left, close to the edge of the unprotected floor opening, where they could slide or be knocked in.",
+      "severity": "Medium",
+      "category": "Material Handling and Storage"
+    },
+    {
+      "title": "Cluttered aisle along switchgear",
+      "description": "Boxes, a cable reel, metal channel pieces, a tool case and carts crowd the floor along the switchgear lineup, narrowing the working clearance in front of the electrical equipment.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    },
+    {
+      "title": "Loose strut leaning against equipment",
+      "description": "Lengths of metal strut channel lean upright against the switchgear on the right and could topple onto workers.",
+      "severity": "Low",
+      "category": "Material Handling and Storage"
+    }
+  ]
+}

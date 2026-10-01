@@ -1,0 +1,41 @@
+{
+  "message": "Here are 6 construction hazards I identified from the image",
+  "hazards": [
+    {
+      "title": "Track loader operating near workers",
+      "description": "A compact track loader in the center-right of the site is working within a few meters of several workers on foot.",
+      "severity": "High",
+      "category": "Heavy Equipment and Mobile Plant"
+    },
+    {
+      "title": "Workers near concrete truck chutes",
+      "description": "Workers stand directly in front of and between two concrete mixer trucks in the center-left, handling the extended discharge chutes, exposing them to being struck if a truck moves or a chute swings.",
+      "severity": "High",
+      "category": "Concrete, Formwork, and Shoring"
+    },
+    {
+      "title": "Protruding conduit stubs and stakes",
+      "description": "Numerous vertical conduit stubs, pipes and stakes protrude from the ground throughout the work area where workers walk, creating trip and impact hazards.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Worker bending while drilling",
+      "description": "A worker on the left is bent over at the waist operating a power drill at ground level, an awkward posture.",
+      "severity": "Medium",
+      "category": "Manual Handling and Ergonomics"
+    },
+    {
+      "title": "Collapsed and sagging safety fencing",
+      "description": "Orange barrier fencing in the foreground and left side is sagging and partly lying on the ground, making it an inadequate barricade and a tangle hazard.",
+      "severity": "Low",
+      "category": "Barricades, Signage, and Exclusion Zones"
+    },
+    {
+      "title": "Uneven ground and gravel piles",
+      "description": "The site surface is rough with loose gravel and soil piles around the work area, creating uneven footing.",
+      "severity": "Low",
+      "category": "Slips, Trips, and Falls"
+    }
+  ]
+}

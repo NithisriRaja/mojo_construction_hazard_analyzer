@@ -1,0 +1,46 @@
+{
+  "hazards": [
+    {
+      "title": "Worker beneath suspended load",
+      "description": "The signal person in the orange vest at center stands almost directly beneath the steel bundle suspended from the crane, inside the load's fall zone.",
+      "severity": "High",
+      "category": "Cranes, Hoisting, and Rigging"
+    },
+    {
+      "title": "Lift area not barricaded",
+      "description": "No barricades, cones or exclusion-zone markings are visible around the lift path, so workers can move freely under and around the suspended steel.",
+      "severity": "High",
+      "category": "Barricades, Signage, and Exclusion Zones"
+    },
+    {
+      "title": "Loose bundle in basket slings",
+      "description": "The suspended bundle of steel tubes and beams is held only by two basket-hitch slings with no visible banding, so individual members could shift or slide out during the lift.",
+      "severity": "Medium",
+      "category": "Material Handling and Storage"
+    },
+    {
+      "title": "Workers near crane swing radius",
+      "description": "A worker stands next to the mobile crane carrier and outriggers on the right, within the crane's swing area, with no barricade marking the counterweight zone.",
+      "severity": "Medium",
+      "category": "Heavy Equipment and Mobile Plant"
+    },
+    {
+      "title": "Haphazard steel piles on ground",
+      "description": "In the foreground, steel tubes and channels are piled loosely and crosswise on each other and on timber, so they could roll or topple.",
+      "severity": "Medium",
+      "category": "Material Handling and Storage"
+    },
+    {
+      "title": "Materials and debris in walkway",
+      "description": "Loose timber, steel offcuts and tools are scattered across the work surface in the lower foreground, creating trip hazards where workers walk.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Slings left on ground",
+      "description": "Lifting slings lie in a tangled pile on the ground in the lower foreground, creating a trip hazard and exposing the rigging gear to damage.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

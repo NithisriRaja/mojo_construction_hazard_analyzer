@@ -1,0 +1,8 @@
+anthropic==1.11.0
+python-dotenv==1.2.4
+jsonschema==4.26.0
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+pillow==12.3.0
+requests==2.34.2

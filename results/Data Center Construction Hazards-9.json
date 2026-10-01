@@ -1,0 +1,41 @@
+{
+  "message": "Here are 6 construction hazards I identified from the image",
+  "hazards": [
+    {
+      "title": "Unprotected edge at floor opening",
+      "description": "The large opening into the lower level in the center foreground has a wooden guardrail only along its far side, leaving the near concrete edge beside the walkway unprotected.",
+      "severity": "High",
+      "category": "Working at Heights and Fall Protection"
+    },
+    {
+      "title": "Uncapped vertical rebar",
+      "description": "A row of protruding vertical rebar dowels without impalement caps runs along the left walkway where a worker is walking, creating an impalement hazard if someone trips or falls onto them.",
+      "severity": "High",
+      "category": "Concrete, Formwork, and Shoring"
+    },
+    {
+      "title": "Damaged wooden stair treads",
+      "description": "The temporary wooden stairway on the right, beside the floor opening, has broken and splintered treads that could give way and cause a fall.",
+      "severity": "High",
+      "category": "Ladders and Stairways"
+    },
+    {
+      "title": "Trip hazard on rebar mats",
+      "description": "Workers in the mid-ground are walking and working directly on open rebar grids, creating a risk of trips and falls onto the steel.",
+      "severity": "Medium",
+      "category": "Concrete, Formwork, and Shoring"
+    },
+    {
+      "title": "Awkward bent-over rebar tying",
+      "description": "Workers in the mid-ground are bent over at the waist tying rebar at ground level, posing a repetitive back strain risk.",
+      "severity": "Medium",
+      "category": "Manual Handling and Ergonomics"
+    },
+    {
+      "title": "Loose debris along walkway",
+      "description": "Broken concrete, rubble and loose material lie along the base of the rebar line beside the left walkway.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

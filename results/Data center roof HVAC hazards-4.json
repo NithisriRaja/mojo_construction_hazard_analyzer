@@ -1,0 +1,35 @@
+{
+  "message": "Here are 5 construction hazards I identified from the image",
+  "hazards": [
+    {
+      "title": "Work at low parapet edge",
+      "description": "A worker on the right is bent over working right at the roof edge, protected only by a low parapet with no guardrail or visible personal fall arrest, above a long drop to the active site below.",
+      "severity": "High",
+      "category": "Working at Heights and Fall Protection"
+    },
+    {
+      "title": "Work inside open electrical enclosure",
+      "description": "A worker on the left is reaching into an open rooftop unit electrical enclosure with exposed wiring and components, and no lockout/tagout devices are visible.",
+      "severity": "High",
+      "category": "Electrical Safety"
+    },
+    {
+      "title": "Tools stored near roof edge",
+      "description": "Power tools, a tool bag and hand tools sit on the roof surface close to the low parapet on the right, where they could be knocked over the edge onto the active site below.",
+      "severity": "Medium",
+      "category": "Falling Objects and Overhead Work"
+    },
+    {
+      "title": "Cords strewn across walkway",
+      "description": "Multiple black and orange cords run loosely across the main roof walkway in the foreground and middle of the image, creating trip hazards for workers moving between units and near the edge.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Low pipe supports along walkway",
+      "description": "Low-mounted pipe racks and support stands with base blocks along the left side of the walkway project into the travel area and present trip and shin-strike hazards.",
+      "severity": "Low",
+      "category": "Slips, Trips, and Falls"
+    }
+  ]
+}

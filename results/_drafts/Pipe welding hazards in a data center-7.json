@@ -1,0 +1,34 @@
+{
+  "hazards": [
+    {
+      "title": "Unsecured compressed gas cylinder",
+      "description": "A tall green gas cylinder with a regulator stands freely on the floor beside the cardboard boxes and welding bench, with no visible chain, strap or cart securing it against tipping.",
+      "severity": "High",
+      "category": "Compressed Gas Safety"
+    },
+    {
+      "title": "Combustibles near active welding",
+      "description": "Open cardboard boxes stacked on a pallet sit directly beside the welding bench where sparks are visibly spraying from the pipe weld, creating a fire ignition risk.",
+      "severity": "High",
+      "category": "Fire Prevention and Protection"
+    },
+    {
+      "title": "No welding screens for nearby workers",
+      "description": "Welding is being done in the open with no welding curtains or screens, exposing the worker standing just behind the bench and others in the area to arc flash and flying sparks.",
+      "severity": "Medium",
+      "category": "Hot Work—Welding, Cutting, and Grinding"
+    },
+    {
+      "title": "Cables and hoses across floor",
+      "description": "Welding leads and hoses are coiled and run loosely across the walkway floor on the left side of the image near the welder cart, creating a trip hazard.",
+      "severity": "Low",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Clutter under welding bench",
+      "description": "Plastic bags, a bin, tools and loose items are crowded under the welding bench, adding combustible material and poor housekeeping in the hot work area.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

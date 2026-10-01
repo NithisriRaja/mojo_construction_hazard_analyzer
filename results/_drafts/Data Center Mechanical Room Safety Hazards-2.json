@@ -1,0 +1,34 @@
+{
+  "hazards": [
+    {
+      "title": "Overhead reaching from stepladder",
+      "description": "A worker on the orange fiberglass stepladder at right center is reaching fully overhead with an extended arm to work on the pipe supports, which raises the risk of losing balance and falling from the ladder.",
+      "severity": "Medium",
+      "category": "Ladders and Stairways"
+    },
+    {
+      "title": "Pinch points during flange assembly",
+      "description": "Two workers at center-left are aligning and bolting a large blue pipe flange by hand, which puts their hands and fingers at risk of being caught between heavy pipe components.",
+      "severity": "Medium",
+      "category": "Struck-by and Caught-in/Between Hazards"
+    },
+    {
+      "title": "Gas cylinder beside doorway",
+      "description": "A chained compressed gas cylinder with a regulator attached stands right next to the doorway in a traffic path, where it could be struck by passing pallet jacks or carts.",
+      "severity": "Low",
+      "category": "Compressed Gas Safety"
+    },
+    {
+      "title": "Pallet and fittings on floor",
+      "description": "A low pallet loaded with pipe fittings and a cordless drill sits on the floor in the walkway beside the tool cart at left, creating a trip hazard.",
+      "severity": "Low",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Cluttered tool cart and work area",
+      "description": "The tool cart at far left is overloaded with tools and parts, and loose items are scattered around the pipe base, reducing order in the work area.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

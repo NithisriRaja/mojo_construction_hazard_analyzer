@@ -1,0 +1,11 @@
+# secrets
+.env
+# environments / build output
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+# API usage logs (cost data)
+logs/

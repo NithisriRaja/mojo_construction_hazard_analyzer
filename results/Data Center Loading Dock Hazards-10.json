@@ -1,0 +1,41 @@
+{
+  "message": "Here are 6 construction hazards I identified from the image",
+  "hazards": [
+    {
+      "title": "Tall uneven stack of boxes",
+      "description": "In the center of the image, cardboard boxes are stacked very high on a single pallet against the wall with uneven upper tiers, so boxes could topple onto workers passing through the busy dock area.",
+      "severity": "Medium",
+      "category": "Material Handling and Storage"
+    },
+    {
+      "title": "Heavy panel carried alone, vision blocked",
+      "description": "A worker in the center is carrying a large sheet-metal panel alone in front of their body, which blocks their forward view and creates a strain risk while walking through an area with a hose, pallets and other workers.",
+      "severity": "Medium",
+      "category": "Manual Handling and Ergonomics"
+    },
+    {
+      "title": "Stepladder in doorway, overhead reach",
+      "description": "On the right, a worker stands high on a blue stepladder set up in a doorway, reaching overhead toward the door frame, with the ladder positioned in a traffic path.",
+      "severity": "Medium",
+      "category": "Ladders and Stairways"
+    },
+    {
+      "title": "Pallet jack moving heavy units in trailer",
+      "description": "Inside the trailer on the left, a worker is handling heavy condenser units with a pallet jack while another worker stands near the trailer opening, risking struck-by or caught-between injuries if a load shifts or rolls.",
+      "severity": "Medium",
+      "category": "Struck-by and Caught-in/Between Hazards"
+    },
+    {
+      "title": "Hose across walkway and doorway",
+      "description": "A red hose runs across the floor from near the box stack, through the doorway toward the stepladder on the right, creating a trip hazard in a main walkway.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Pallets and equipment crowding walkway",
+      "description": "In the left foreground, wrapped equipment and an empty wooden pallet sit at the edge of the walking path, narrowing the travel route and creating a trip hazard.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

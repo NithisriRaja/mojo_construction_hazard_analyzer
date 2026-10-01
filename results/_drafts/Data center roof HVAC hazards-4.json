@@ -1,0 +1,34 @@
+{
+  "hazards": [
+    {
+      "title": "Inadequate parapet at roof edge",
+      "description": "A worker on the right is bent over working right at the roof edge, where the parapet is only about knee height, with no guardrail or visible personal fall arrest system despite a long drop to the site below.",
+      "severity": "High",
+      "category": "Working at Heights and Fall Protection"
+    },
+    {
+      "title": "Work inside open energized panel",
+      "description": "A worker on the left is reaching into an open rooftop unit electrical enclosure with exposed wiring and components, and no lockout/tagout devices are visible.",
+      "severity": "High",
+      "category": "Lockout/Tagout and Hazardous Energy"
+    },
+    {
+      "title": "Tools stored near roof edge",
+      "description": "Power tools, a tool bag and hand tools sit on the roof surface close to the low parapet on the right, where they could be knocked over the edge onto the active site below.",
+      "severity": "Medium",
+      "category": "Falling Objects and Overhead Work"
+    },
+    {
+      "title": "Cords and hoses across walkway",
+      "description": "Multiple black and orange extension cords and hoses are strewn loosely across the main roof walkway, creating trip hazards for workers moving between units and near the edge.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Low pipe supports in travel path",
+      "description": "Low-mounted pipe racks, support stands and yellow equipment rails along the left side of the walkway project into the work area and present trip and shin-strike hazards.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

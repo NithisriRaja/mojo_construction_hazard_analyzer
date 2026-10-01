@@ -1,0 +1,47 @@
+{
+  "message": "Here are 7 construction hazards I identified from the image",
+  "hazards": [
+    {
+      "title": "Worker beneath suspended load",
+      "description": "The signal person in the orange vest at center stands almost directly beneath the steel bundle suspended from the crane, inside the load's fall zone.",
+      "severity": "High",
+      "category": "Cranes, Hoisting, and Rigging"
+    },
+    {
+      "title": "Lift area not barricaded",
+      "description": "No barricades, cones or exclusion-zone markings are visible around the lift path, so workers can move freely under and around the suspended steel.",
+      "severity": "High",
+      "category": "Barricades, Signage, and Exclusion Zones"
+    },
+    {
+      "title": "Worker near crane carrier",
+      "description": "A worker in an orange vest stands close beside the mobile crane carrier and outriggers on the right while the crane is lifting, with no barricade marking the swing or counterweight zone.",
+      "severity": "High",
+      "category": "Cranes, Hoisting, and Rigging"
+    },
+    {
+      "title": "Mixed bundle on two slings",
+      "description": "The suspended bundle of mixed steel tubes and beams hangs from two slings with no clearly visible banding, so individual members could shift or slide out during the lift.",
+      "severity": "Medium",
+      "category": "Cranes, Hoisting, and Rigging"
+    },
+    {
+      "title": "Haphazard steel piles on ground",
+      "description": "In the foreground, steel tubes and channels are piled loosely and crosswise on each other and on timber, so they could roll or topple.",
+      "severity": "Medium",
+      "category": "Material Handling and Storage"
+    },
+    {
+      "title": "Slings left on ground",
+      "description": "Lifting slings lie in a tangled pile on the ground in the lower foreground, creating a trip hazard and exposing the rigging gear to damage.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Scattered materials and debris",
+      "description": "Loose timber, steel offcuts and tools are scattered across the work surface in the lower foreground where workers walk.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

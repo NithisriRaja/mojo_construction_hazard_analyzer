@@ -1,0 +1,40 @@
+{
+  "hazards": [
+    {
+      "title": "Tall leaning stack of boxes",
+      "description": "In the center of the image, cardboard boxes are stacked very high on a single pallet against the wall, and the upper tiers appear uneven and leaning, so they could topple onto workers passing through the busy dock area.",
+      "severity": "High",
+      "category": "Material Handling and Storage"
+    },
+    {
+      "title": "Heavy panel carried alone, vision blocked",
+      "description": "A worker in the center is carrying a large sheet-metal panel alone in front of their body, which blocks their forward view and creates a strain risk while walking through an area with a hose, pallets and other workers.",
+      "severity": "Medium",
+      "category": "Manual Handling and Ergonomics"
+    },
+    {
+      "title": "Stepladder in doorway, overhead reach",
+      "description": "On the right, a worker stands high on a blue stepladder in a doorway, reaching overhead toward the door frame, with the ladder in a traffic path and a hose running beneath it.",
+      "severity": "Medium",
+      "category": "Ladders and Stairways"
+    },
+    {
+      "title": "Pallet jack moving heavy units in trailer",
+      "description": "Inside the trailer on the left, a worker is moving heavy condenser units on a pallet jack while another worker stands at the trailer opening, risking struck-by or caught-between injuries if a load shifts or rolls out.",
+      "severity": "Medium",
+      "category": "Struck-by and Caught-in/Between Hazards"
+    },
+    {
+      "title": "Hose across walkway and doorway",
+      "description": "A red hose runs across the floor from the box stack, through the doorway and under the stepladder on the right, creating a trip hazard in a main walkway.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Pallets and equipment crowding walkway",
+      "description": "In the left foreground, wrapped equipment and an empty wooden pallet sit at the edge of the walking path, narrowing the travel route and creating a trip hazard.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

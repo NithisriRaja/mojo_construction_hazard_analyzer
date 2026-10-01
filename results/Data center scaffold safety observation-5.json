@@ -1,0 +1,35 @@
+{
+  "message": "Here are 5 construction hazards I identified from the image",
+  "hazards": [
+    {
+      "title": "No guardrails on rolling scaffold",
+      "description": "Two workers stand on the elevated platform of the yellow rolling scaffold in the center, which has no guardrails or midrails along its open edges and no visible fall protection.",
+      "severity": "High",
+      "category": "Scaffolding"
+    },
+    {
+      "title": "Scaffold caster resting on debris",
+      "description": "The front-left caster of the occupied rolling scaffold in the foreground sits on broken wood and drywall pieces instead of the level floor, which could let the scaffold shift or tip.",
+      "severity": "High",
+      "category": "Scaffolding"
+    },
+    {
+      "title": "Tools on platform without toeboards",
+      "description": "A cordless drill, a red toolbox, a cardboard box and another tool sit on the scaffold platform, which has no toeboards to stop them falling onto people below.",
+      "severity": "Medium",
+      "category": "Scaffolding"
+    },
+    {
+      "title": "No exclusion zone below overhead work",
+      "description": "The area beneath and around the scaffold where workers are installing overhead cable trays is not barricaded or marked, while other workers move through the open floor nearby.",
+      "severity": "Medium",
+      "category": "Barricades, Signage, and Exclusion Zones"
+    },
+    {
+      "title": "Debris scattered on walking surface",
+      "description": "Broken wood, drywall fragments and plastic wrap are on the floor at the scaffold base, and wood scraps and loose materials lie near the cart on the left, creating trip hazards.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

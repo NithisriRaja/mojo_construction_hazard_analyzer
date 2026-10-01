@@ -1,0 +1,29 @@
+{
+  "message": "Here are 4 construction hazards I identified from the image",
+  "hazards": [
+    {
+      "title": "Unprotected floor opening",
+      "description": "A large rectangular floor opening in the lower right foreground has no cover, guardrail, or barricade around it, exposing workers walking through the area to a fall into the pit.",
+      "severity": "High",
+      "category": "Working at Heights and Fall Protection"
+    },
+    {
+      "title": "Work inside open switchgear",
+      "description": "A worker at left is working directly inside open electrical switchgear with exposed wiring and components, with no visible lockout/tagout devices on the equipment.",
+      "severity": "High",
+      "category": "Electrical Safety"
+    },
+    {
+      "title": "Extension cord across walkway",
+      "description": "A yellow extension cord runs loosely across the open floor from the switchgear area at left to the floor opening at lower right, creating a trip hazard in the walkway.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Materials staged in work area",
+      "description": "Palletized materials beside the stepladder and cable tray sections on pallets near the workbench are staged on the open floor, narrowing walkways and adding obstruction hazards.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

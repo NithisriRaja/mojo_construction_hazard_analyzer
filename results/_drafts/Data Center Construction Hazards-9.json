@@ -1,0 +1,46 @@
+{
+  "hazards": [
+    {
+      "title": "Unprotected edge at floor opening",
+      "description": "The large opening into the lower level in the center foreground has a wooden guardrail only along its far side, leaving the near concrete edge fully unprotected next to the walkway.",
+      "severity": "High",
+      "category": "Working at Heights and Fall Protection"
+    },
+    {
+      "title": "Uncapped vertical rebar",
+      "description": "A row of protruding vertical rebar dowels without impalement caps runs along the left walkway where a worker is walking, creating an impalement hazard if someone trips or falls onto them.",
+      "severity": "High",
+      "category": "Concrete, Formwork, and Shoring"
+    },
+    {
+      "title": "Damaged wooden stair treads",
+      "description": "The temporary wooden stairway on the right has broken, splintered and missing tread sections that could give way or cause a fall.",
+      "severity": "High",
+      "category": "Ladders and Stairways"
+    },
+    {
+      "title": "Makeshift guardrail without toeboard",
+      "description": "The wooden guardrail at the opening's far side appears improvised with no toeboard, allowing tools or debris to fall into the lower level.",
+      "severity": "Medium",
+      "category": "Falling Objects and Overhead Work"
+    },
+    {
+      "title": "Trip hazard on rebar mats",
+      "description": "Workers in the mid-ground are walking and working directly on open rebar grids, creating a risk of trips and falls onto the steel.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Awkward bent-over rebar tying",
+      "description": "Workers in the mid-ground are bent over at the waist tying rebar at ground level, posing repetitive back strain risk.",
+      "severity": "Low",
+      "category": "Manual Handling and Ergonomics"
+    },
+    {
+      "title": "Loose debris along walkway",
+      "description": "Broken concrete, rubble and loose material lie along the base of the rebar line beside the left walkway.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

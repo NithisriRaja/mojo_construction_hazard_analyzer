@@ -1,0 +1,58 @@
+{
+  "hazards": [
+    {
+      "title": "Unprotected trench without shoring",
+      "description": "Two workers are inside a deep, narrow trench with near-vertical unsupported walls and no visible trench box, shoring, sloping or benching, creating a serious cave-in risk.",
+      "severity": "High",
+      "category": "Excavation and Trenching"
+    },
+    {
+      "title": "Spoil pile at trench edge",
+      "description": "A large pile of excavated soil and rocks on the right side is placed directly at the trench lip, adding surcharge load and risk of material rolling onto workers below.",
+      "severity": "High",
+      "category": "Excavation and Trenching"
+    },
+    {
+      "title": "Excavator operating near trench",
+      "description": "An excavator at the upper right is positioned close to the trench and spoil pile while workers are in the excavation, posing struck-by and wall-collapse risks.",
+      "severity": "High",
+      "category": "Heavy Equipment and Mobile Plant"
+    },
+    {
+      "title": "Workers at unprotected trench edge",
+      "description": "Workers on the left stand at the crumbling, unbarricaded trench edge, including one lowering a pipe into the trench, risking a fall into the excavation or edge collapse.",
+      "severity": "High",
+      "category": "Working at Heights and Fall Protection"
+    },
+    {
+      "title": "No visible trench access ladder",
+      "description": "No ladder or ramp is visible in the trench for the workers inside, limiting safe entry and emergency egress.",
+      "severity": "Medium",
+      "category": "Access and Egress"
+    },
+    {
+      "title": "No barricades along trench",
+      "description": "The long open trench lacks visible barricades or warning barriers along its edges, despite workers and traffic in the surrounding area.",
+      "severity": "Medium",
+      "category": "Barricades, Signage, and Exclusion Zones"
+    },
+    {
+      "title": "Pipe lowered over workers below",
+      "description": "A worker on the left edge is lowering a pipe into the trench while other workers are working in the trench below, creating a struck-by risk from falling material.",
+      "severity": "Medium",
+      "category": "Falling Objects and Overhead Work"
+    },
+    {
+      "title": "Stacked pipes near trench edge",
+      "description": "A stack of large gray pipes on the left is stored near the trench edge with only a wooden stake as restraint, posing a risk of rolling or adding load near the excavation.",
+      "severity": "Medium",
+      "category": "Material Handling and Storage"
+    },
+    {
+      "title": "Loose debris and rubble at edge",
+      "description": "Loose gravel, rocks and broken material along the left trench edge create tripping hazards and can fall onto workers in the trench.",
+      "severity": "Low",
+      "category": "Slips, Trips, and Falls"
+    }
+  ]
+}

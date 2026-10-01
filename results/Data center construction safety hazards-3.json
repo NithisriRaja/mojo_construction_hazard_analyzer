@@ -1,0 +1,47 @@
+{
+  "message": "Here are 7 construction hazards I identified from the image",
+  "hazards": [
+    {
+      "title": "Worker on trailer deck edge",
+      "description": "A worker stands near the edge of the flatbed trailer deck at left among wrapped pallets, with no fall protection visible, exposed to a fall of several feet to the ground.",
+      "severity": "High",
+      "category": "Working at Heights and Fall Protection"
+    },
+    {
+      "title": "Forklift operating near pedestrians",
+      "description": "A forklift travels in the center of the roadway close to workers unloading the truck and a worker walking on the adjacent walkway, with no physical separation or spotter visible.",
+      "severity": "High",
+      "category": "Heavy Equipment and Mobile Plant"
+    },
+    {
+      "title": "Worker beside load during unloading",
+      "description": "A worker at ground level beside the trailer reaches up to steady a large wrapped pallet load on the deck and could be struck if the load shifts or falls.",
+      "severity": "Medium",
+      "category": "Struck-by and Caught-in/Between Hazards"
+    },
+    {
+      "title": "Pipes stacked on slope",
+      "description": "Large black pipes are stacked on timber supports on the sloped dirt embankment at right, held by wooden stakes and straps, and could roll or slide if the supports shift.",
+      "severity": "Medium",
+      "category": "Material Handling and Storage"
+    },
+    {
+      "title": "Loose straps across walkway",
+      "description": "Tangled green straps lie loosely across the concrete walkway and onto the road edge in the foreground, creating a trip hazard for pedestrians.",
+      "severity": "Medium",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Muddy, rutted travel surface",
+      "description": "The roadway on the left is wet, muddy and rutted with puddles, creating slip and trip hazards for workers on foot.",
+      "severity": "Low",
+      "category": "Slips, Trips, and Falls"
+    },
+    {
+      "title": "Materials stored along walkway edge",
+      "description": "Wrapped pallets of material are placed directly beside the walkway in the right foreground, crowding the pedestrian route.",
+      "severity": "Low",
+      "category": "Housekeeping and Site Organization"
+    }
+  ]
+}

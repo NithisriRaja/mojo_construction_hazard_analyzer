@@ -1,0 +1,254 @@
+{
+  "_about": "Reference labels for the sample images, written from a manual review of each photo. To be confirmed by the client's safety SME. 'expected': hazards that must be found -- 'match' is a regex over title+description used to find the hazard, 'category' is the correct category per the tie-break rules. 'must_not': regexes for claims known to be false for that photo.",
+  "images": {
+    "Unshored data center trench work-1": {
+      "expected": [
+        {
+          "id": "unshored trench",
+          "match": "shor|shield|slop|cave",
+          "category": "Excavation and Trenching"
+        },
+        {
+          "id": "spoil pile at edge",
+          "match": "spoil|excavated soil|soil pile|dirt pile",
+          "category": "Excavation and Trenching"
+        },
+        {
+          "id": "excavator near edge",
+          "match": "excavator|heavy (equipment|machinery)",
+          "category": "Heavy Equipment and Mobile Plant"
+        },
+        {
+          "id": "no egress",
+          "match": "egress|ladder|ramp|means of exit|exit",
+          "category": "Access and Egress"
+        }
+      ],
+      "must_not": []
+    },
+    "Data Center Mechanical Room Safety Hazards-2": {
+      "expected": [
+        {
+          "id": "ladder overhead reach",
+          "match": "ladder",
+          "category": "Ladders and Stairways"
+        }
+      ],
+      "must_not": [
+        {
+          "id": "eye/PPE guess",
+          "match": "safety glasses|eye protection|without gloves|protective gloves"
+        },
+        {
+          "id": "cylinder unsecured (it is chained)",
+          "match": "cylinder.*(unsecured|not secured|not chained|without (a |any )?(visible )?(chain|strap)|without being (chained|secured))|(unsecured|not secured).*cylinder"
+        }
+      ]
+    },
+    "Data center construction safety hazards-3": {
+      "expected": [
+        {
+          "id": "pedestrian near forklift",
+          "match": "forklift",
+          "category": "Heavy Equipment and Mobile Plant"
+        },
+        {
+          "id": "worker on trailer cargo",
+          "match": "trailer|flatbed|truck bed|cargo|truck",
+          "category": "Working at Heights and Fall Protection"
+        },
+        {
+          "id": "pipes on slope",
+          "match": "pipe",
+          "category": "Material Handling and Storage"
+        },
+        {
+          "id": "straps on walkway",
+          "match": "strap|band",
+          "category": "Slips, Trips, and Falls"
+        }
+      ],
+      "must_not": []
+    },
+    "Data center roof HVAC hazards-4": {
+      "expected": [
+        {
+          "id": "roof edge",
+          "match": "roof edge|edge of the roof|parapet|leading edge",
+          "category": "Working at Heights and Fall Protection"
+        },
+        {
+          "id": "open electrical panel",
+          "match": "(open|exposed|opened)\\W+(\\w+\\W+){0,4}(electrical|panel|cabinet|enclosure|wiring|components|switchgear)|(inside|into|in) (an |the )?(open )?(electrical )?(panel|cabinet|enclosure)",
+          "category": "Electrical Safety"
+        },
+        {
+          "id": "tools at edge",
+          "match": "tool",
+          "category": "Falling Objects and Overhead Work"
+        },
+        {
+          "id": "cords on roof",
+          "match": "cord|cable|hose",
+          "category": "Slips, Trips, and Falls"
+        }
+      ],
+      "must_not": []
+    },
+    "Data center scaffold safety observation-5": {
+      "expected": [
+        {
+          "id": "scaffold guardrails",
+          "match": "guardrail",
+          "category": "Scaffolding"
+        },
+        {
+          "id": "caster on debris",
+          "match": "caster|wheel|base",
+          "category": "Scaffolding"
+        }
+      ],
+      "must_not": []
+    },
+    "Suspended steel in unprotected work zone-6": {
+      "expected": [
+        {
+          "id": "worker under load",
+          "match": "(under|beneath|below).*(load|suspended)|suspended load",
+          "category": "Cranes, Hoisting, and Rigging"
+        },
+        {
+          "id": "no lift exclusion zone",
+          "match": "barricad|exclusion|restrict",
+          "category": "Barricades, Signage, and Exclusion Zones"
+        }
+      ],
+      "must_not": []
+    },
+    "Pipe welding hazards in a data center-7": {
+      "expected": [
+        {
+          "id": "unsecured cylinder",
+          "match": "cylinder",
+          "category": "Compressed Gas Safety"
+        },
+        {
+          "id": "combustibles near welding",
+          "match": "cardboard|combustible|box",
+          "category": "Fire Prevention and Protection"
+        },
+        {
+          "id": "no welding screens",
+          "match": "screen|curtain",
+          "category": "Hot Work—Welding, Cutting, and Grinding"
+        }
+      ],
+      "must_not": []
+    },
+    "Unfinished data center safety hazards-8": {
+      "expected": [
+        {
+          "id": "floor opening",
+          "match": "opening|pit|hole",
+          "category": "Working at Heights and Fall Protection"
+        },
+        {
+          "id": "open electrical panel",
+          "match": "(open|exposed|opened)\\W+(\\w+\\W+){0,4}(electrical|panel|cabinet|enclosure|wiring|components|switchgear)|(inside|into|in) (an |the )?(open )?(electrical )?(panel|cabinet|enclosure)",
+          "category": "Electrical Safety"
+        },
+        {
+          "id": "cord on floor",
+          "match": "cord|cable",
+          "category": "Slips, Trips, and Falls"
+        }
+      ],
+      "must_not": [
+        {
+          "id": "eye/PPE guess",
+          "match": "safety glasses|eye protection"
+        }
+      ]
+    },
+    "Data Center Construction Hazards-9": {
+      "expected": [
+        {
+          "id": "uncapped rebar",
+          "match": "rebar|dowel",
+          "category": "Concrete, Formwork, and Shoring"
+        },
+        {
+          "id": "floor opening edge",
+          "match": "opening|edge|lower level",
+          "category": "Working at Heights and Fall Protection"
+        },
+        {
+          "id": "damaged stair",
+          "match": "stair|tread|step",
+          "category": "Ladders and Stairways"
+        }
+      ],
+      "must_not": []
+    },
+    "Data Center Loading Dock Hazards-10": {
+      "expected": [
+        {
+          "id": "hose across walkway",
+          "match": "hose|cable",
+          "category": "Slips, Trips, and Falls"
+        },
+        {
+          "id": "carry blocks vision",
+          "match": "carry|vision|line of sight",
+          "category": "Manual Handling and Ergonomics"
+        },
+        {
+          "id": "leaning box stack",
+          "match": "box|stack",
+          "category": "Material Handling and Storage"
+        }
+      ],
+      "must_not": [
+        {
+          "id": "ladder on hose (hose runs between legs)",
+          "match": "ladder.*(over|on|atop|on top of) (a |the )?(thick )?(red )?(hose|cable)"
+        }
+      ]
+    },
+    "Data Center Construction Safety Inspection": {
+      "expected": [
+        {
+          "id": "floor opening",
+          "match": "opening|pit|hole",
+          "category": "Working at Heights and Fall Protection"
+        },
+        {
+          "id": "open electrical panel",
+          "match": "(open|exposed|opened)\\W+(\\w+\\W+){0,4}(electrical|panel|cabinet|enclosure|wiring|components|switchgear)|(inside|into|in) (an |the )?(open )?(electrical )?(panel|cabinet|enclosure)",
+          "category": "Electrical Safety"
+        },
+        {
+          "id": "cord on floor",
+          "match": "cord|cable",
+          "category": "Slips, Trips, and Falls"
+        }
+      ],
+      "must_not": [
+        {
+          "id": "cylinder unsecured (it is chained)",
+          "match": "cylinder.*(unsecured|not secured|not chained|without (a |any )?(visible )?(chain|strap)|without being (chained|secured))|(unsecured|not secured).*cylinder"
+        }
+      ]
+    },
+    "Test site": {
+      "expected": [
+        {
+          "id": "workers near heavy equipment",
+          "match": "skid steer|mixer|heavy (equipment|vehicle|machinery)|truck",
+          "category": "Heavy Equipment and Mobile Plant"
+        }
+      ],
+      "must_not": []
+    }
+  }
+}
