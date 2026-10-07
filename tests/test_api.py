@@ -15,6 +15,7 @@ from fastapi.testclient import TestClient
 from PIL import Image
 
 from backend.main import app
+from backend.services import analysis_service
 from construction_hazards import claude_client, config, domo_client, usage_log
 
 DRAFT = {"hazards": [
@@ -54,8 +55,11 @@ def client(monkeypatch, tmp_path):
     monkeypatch.setattr(config, "DOMO_API_KEY", "test-token")
     monkeypatch.setattr(usage_log, "LOG_FILE", tmp_path / "api_usage.csv")
     monkeypatch.setattr(usage_log, "PENDING_FILE", tmp_path / "api_usage_pending.csv")
+    domo_rows = []  # rows that would go to the Domo usage dataset; never sent from tests
+    monkeypatch.setattr(analysis_service.domo_usage, "record", lambda **row: domo_rows.append(row))
     c = TestClient(app)
     c.calls = calls
+    c.domo_rows = domo_rows
     c.log_file = tmp_path / "api_usage.csv"
     return c
 
@@ -96,6 +100,11 @@ def test_analyze_success(client):
     assert r.headers["X-Run-Id"].startswith("api-")
     rows = client.log_file.read_text(encoding="utf-8").splitlines()
     assert len(rows) == 3 and "site photo.png" in rows[1] and r.headers["X-Run-Id"] in rows[1]
+    # one Domo usage row for the whole image, with the summed usage
+    assert len(client.domo_rows) == 1
+    row = client.domo_rows[0]
+    assert (row["run_id"], row["image"], row["status"]) == (r.headers["X-Run-Id"], "site photo.png", "ok")
+    assert (row["input_tokens"], row["output_tokens"], row["cost_usd"]) == (2000, 400, pytest.approx(0.016))
 
 
 @pytest.mark.parametrize("name,data,status", [
@@ -107,6 +116,7 @@ def test_analyze_rejects_bad_uploads(client, name, data, status):
     r = client.post("/api/analyze", files={"file": (name, data, "application/octet-stream")})
     assert r.status_code == status
     assert client.calls == []  # rejected before any (fake) Claude call
+    assert client.domo_rows == []
 
 
 def test_upstream_failure_returns_502(client, monkeypatch):
@@ -116,6 +126,8 @@ def test_upstream_failure_returns_502(client, monkeypatch):
     monkeypatch.setattr("construction_hazards.config.MAX_ATTEMPTS", 1)
     r = client.post("/api/analyze", files={"file": ("x.png", _png(), "image/png")})
     assert r.status_code == 502
+    # the failed call was still billed, so it is logged to Domo as an error row
+    assert [row["status"] for row in client.domo_rows] == ["error"]
 
 
 def test_analyze_domo(client):
@@ -127,6 +139,7 @@ def test_analyze_domo(client):
     assert r.headers["X-Provider"] == "domo"
     assert r.headers["X-Input-Tokens"] == "1800" and r.headers["X-Output-Tokens"] == "300"
     assert r.headers["X-Cost-USD"] == "n/a"  # Domo bills through its own contract
+    assert client.domo_rows == []  # no cost, so not sent to the Domo usage dataset
 
 
 def test_analyze_claude_alias(client):

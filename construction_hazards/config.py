@@ -36,6 +36,9 @@ DOMO_MODEL = _ENV.get("DOMO_MODEL") or "domo.google.gemini-3.5-flash"
 _t = _ENV.get("DOMO_TEMPERATURE", "0")
 DOMO_TEMPERATURE: float | None = float(_t) if _t not in (None, "") else None
 DOMO_AVAILABLE = bool(DOMO_BASE_URL and DOMO_API_KEY)
+# Domo dataset that receives one usage row per Claude analysis from the web API
+# (backend/services/domo_usage.py). Empty = not sent; logs/api_usage.csv is always written.
+DOMO_USAGE_DATASET_ID = (_ENV.get("DOMO_USAGE_DATASET_ID") or "").strip()
 
 if not (CLAUDE_AVAILABLE or DOMO_AVAILABLE):
     raise RuntimeError(f"No provider configured: set ANTHROPIC_API_KEY and/or DOMO_BASE_URL + DOMO_API_KEY in {PROJECT_ROOT / '.env'}")
